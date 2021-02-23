@@ -1,0 +1,78 @@
+.logo {
+  &-dark {
+    fill: $dark;
+  }
+  &-white {
+    fill: $white;
+  }
+}
+// Text Color
+.text {
+  &-dark {
+    color: $dark !important;
+  }
+  &-black {
+    color: $black !important;
+  }
+  &-white {
+    color: $white !important;
+  }
+  &-success {
+    color: $success !important;
+  }
+  &-paragraph {
+    color: $paragraph !important;
+  }
+  &-paragraph-alt {
+    color: $paragraph-alt !important;
+  }
+}
+
+// Background Color
+.bg {
+  &-dark {
+    background-color: $dark !important;
+  }
+  &-black {
+    background-color: $black !important;
+  }
+  &-white {
+    background-color: $white !important;
+  }
+  &-success {
+    background-color: $success !important;
+  }
+  &-primary {
+    background-color: $primary !important;
+  }
+  &-paragraph {
+    background-color: $paragraph !important;
+  }
+  &-secondary {
+    background-color: $secondary !important;
+  }
+  &-secondary-alt {
+    background-color: $secondary-alt !important;
+  }
+  &-slider-bg {
+    background-color: $black !important;
+  }
+  &-content-bg {
+    background-color: $content-bg !important;
+  }
+  &-footer-bg {
+    background-color: $footer-bg !important;
+  }
+}
+// border Color
+.border {
+  &-secondary-alt {
+    border-color: $secondary-alt;
+  }
+  &-secondary {
+    border-color: $secondary !important;
+  }
+  &-paragraph {
+    border-color: $paragraph;
+  }
+}
